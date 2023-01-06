@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Rocher";
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+body {
+  background-color: #219ebc;
+}
+
+header {
+  background-color: #8ecae6;
+  height: 100px;
+  border-radius: 50px;
+  margin: 50px auto;
+  width: 90%;
+  display: flex;
+}
+header .information, header .social-media {
+  border-right: 1px #219ebc solid;
+  height: 100px;
+  width: 35%;
+  border-radius: 50px;
+  transition: all 0.5s;
+  background-color: #8ecae6;
+  text-align: center;
+  text-shadow: 1px 1px 3px #219ebc;
+}
+header .information:hover, header .social-media:hover {
+  box-shadow: 1px 5px 7px 1px #023047;
+  margin-top: -4px;
+  border: none;
+}
+header .social-media {
+  margin-left: auto;
+  border-left: 1px #219ebc solid;
+  display: flex;
+}
+header .social-media a {
+  width: 70px;
+  margin: auto;
+  padding: 5px;
+}
+header .social-media a img {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  border-radius: 50%;
+  overflow: visible;
+}
+header .social-media a img:hover {
+  box-shadow: 2px 7px 7px 1px #219ebc;
+}
+
+.imported {
+  background-color: #8ecae6;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 50px;
+  padding: 30px;
+}
+.imported #inp-text {
+  border-radius: 50px;
+  border: none;
+  border-bottom: #219ebc 3px solid;
+  border-top: #219ebc 3px solid;
+  width: 80%;
+  height: 50px;
+  text-align: center;
+  font-size: x-large;
+  background: transparent;
+  transition: all 0.8s;
+  color: #219ebc;
+}
+.imported #inp-text:hover {
+  box-shadow: #023047 0px 5px 7px 2px;
+}
+.imported #click {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: #023047 0px 0px 10px 1px;
+  transition: all 0.8s;
+  margin: 0 20px;
+  background-image: linear-gradient(45deg, #023047 1%, #219ebc 30%, #8ecae6);
+}
+.imported #click:hover {
+  box-shadow: #023047 0px 5px 7px 2px;
+}
+
+.valueWrite {
+  width: 80%;
+  background-color: #8ecae6;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 50px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  text-align: center;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 15px;
+}
+.valueWrite .value-one {
+  width: 80%;
+  background-color: #8ecae6;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 50px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  text-align: center;
+  font-size: 50px;
+  font-family: monospace;
+  background-color: #023047;
+  margin: auto;
+  color: #219ebc;
+  text-shadow: #8ecae6 2px 2px 1px;
+}
+.valueWrite .mint {
+  font-family: "Rocher";
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.valueWrite .value-three {
+  background: #000405;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 900;
+}
+.valueWrite h1 {
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+}
+@supports ((-webkit-background-clip: text) or (background-clip: text)) or (-webkit-background-clip: text) {
+  .valueWrite .fancy {
+    background-image: url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300FDCF'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300FDCF'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-size: 110% auto;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}/*# sourceMappingURL=main.css.map */
